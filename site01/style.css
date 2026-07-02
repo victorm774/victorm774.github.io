@@ -1,0 +1,42 @@
+*{
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+}
+header,footer{
+    background-color: #1f1502;
+    color: white;
+}
+header h1{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 80px;
+}
+header p{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: .8em;
+}
+header a{
+color: white;
+text-decoration: none;
+}
+header li{
+    padding: 5px 10px;
+
+}
+header li:first-child,
+header li:hover{
+    background-color: #ac4e30;
+
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding-bottom: 40px;
+    width: 500px;
+    list-style: none;
+}
+.laranja{
+    background-color: #ac4e30;
+}
