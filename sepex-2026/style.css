@@ -13,7 +13,8 @@ header nav{
 header ul {
     list-style: none;
     width: 200px;
-    border: 1px solid rgb(255, 253, 253);;
+    border: 1px solid rgb(255, 253, 253);
+    margin: 1em
 }
 
 header a {
@@ -46,8 +47,8 @@ main h1 {
 }
 
 .destaque {
-    animation: pulsar .1 ease;
-    animation-iteration-count: infinite;
+    animation: pulsar 1s infinite;
+
 }
 
 @keyframes pulsar {
@@ -81,4 +82,26 @@ main h1 {
 }
 footer{
     text-align: center;
+}
+
+@media (max-width:520px) {
+    header, main, footer {
+        width: 100%;
+    }
+
+    .programacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .programacao article {
+        border: 1px solid #000;
+        box-shadow: 2px 3px 15px #666;
+        width: 95vw;
+    }
+
+    .destaque {
+        animation: a;
+    }
 }
