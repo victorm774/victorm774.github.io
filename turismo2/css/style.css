@@ -1,0 +1,210 @@
+
+h1{
+    padding: 5px;
+    text-align: center;
+    background-color: gray;
+    width: 90%;
+    margin: 0 auto;
+}
+.link{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: aliceblue;
+   padding: 5px;
+   width: 90%;
+   margin: 0 auto;
+}
+.menu{
+    padding: 5px;
+    margin: 0;
+    background-color: blue;
+    text-decoration: none;
+    display: inline-block;
+    word-spacing: 5px;
+    border: 1px solid rgb(17, 16, 16);
+    border-radius: 5px;
+    color: rgb(255, 254, 254);
+
+}
+.menu:hover{
+    background-color: rgb(61, 64, 66);
+    color: aliceblue;
+    text-decoration: none;
+}
+h2{
+    background-color: gray;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 90%;
+}
+.legend{
+    width: 90%;
+    height: 200px;
+    background-color: rgb(180, 180, 180);
+    border: 2px solid black;
+    margin: 0 auto;
+    
+}
+.banana{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.legend h2{
+    max-width: 100%;
+    padding: 3px;
+    background-color: gray;
+    text-align: center;
+
+}
+.cards{
+    width: 40%;
+    padding: 0%;
+    background-color: rgb(112, 112, 163);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+   
+}
+
+.conteudo {
+    width: 90%;
+    margin-top: 15px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto ;
+}
+ 
+.linha {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+ 
+.card {
+    width: 33.33%;
+    border: 1px solid black;
+    padding: 10px;
+}
+ 
+.card img {
+    width: 100%;
+    height: 150px;
+}
+ 
+.card-grande {
+    width: 66.66%;
+    
+}
+.card-grande h3{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.veja{
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color:blue ;
+    text-decoration: none;
+    color: white;
+}
+.veja:hover{
+    background-color: violet;
+    text-decoration: underline;
+    box-shadow: 2px 2px 0 black;
+}
+.rodape {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+ 
+.rodape p {
+    margin: 0;
+    font-size: 12px;
+}
+/* TABLET */
+@media (max-width: 768px) {
+ 
+    h1 {
+        font-size: 28px;
+    }
+ 
+    .link {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+ 
+    .menu {
+        margin: 3px;
+    }
+ 
+    .legend {
+        width: 90%;
+        height: 200px;
+    }
+ 
+    .banana {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+ 
+    .conteudo {
+        width: 90%;
+        margin: 0 auto;
+    }
+ 
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+    .card {
+        width: 48%;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+ 
+}
+ 
+/* CELULAR */
+@media (max-width: 480px) {
+ 
+    h1 {
+        font-size: 22px;
+    }
+ 
+    .menu {
+        font-size: 11px;
+        padding: 3px;
+        margin: 2px;
+    }
+ 
+    .legend {
+        width: 95%;
+        height: 150px;
+    }
+ 
+    .conteudo {
+        width: 95%;
+    }
+ 
+    .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+}
